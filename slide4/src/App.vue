@@ -1,6 +1,7 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import Test from './components/Test.vue'
+
 </script>
 
 <template>
@@ -8,14 +9,21 @@ import Test from './components/Test.vue'
     <a href="https://vite.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
     </a>
-    <a href="https://vuejs.org/" target="_blank">
+    <a href="https:
+    //vuejs.org/" target="_blank">
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div> -->
-  <HelloWorld />
+    <AgeCalculator />
 </template>
 
+
+<script setup>
+import AgeCalculator from "./components/AgeCalculator.vue";
+</script>
+
 <style scoped>
+
 .logo {
   height: 6em;
   padding: 1.5em;
