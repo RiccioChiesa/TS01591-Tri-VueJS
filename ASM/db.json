@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Minh Trí",
+      "email": "trinhmts01591@gmail.com",
+      "password": "123456",
+      "avatar": "https://api.dicebear.com/7.x/adventurer/svg?seed=MinhTri"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "Man Utd 3-2 Fulham",
+      "content": "Benjamin Sesko scores late winner as Michael Carrick guides side to third straight Premier League win",
+      "image": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/02/01/1769962783985_mu-thang-sieu-kich-tinh-fulham-nho-phut-loe-sang-cua-sesko-3514.jpeg",
+      "userId": 1,
+      "createdAt": "04/02/2026"
+    },
+    {
+      "id": 2,
+      "title": "Arsenal 2-3 Man Utd",
+      "content": "Matheus Cunha's 87th-minute strike seals victory as Michael Carrick's side stun leaders",
+      "image": "https://media.zenfs.com/en/epl_index_articles_253/6e362ad65b2ce0b9e30cff9fd5c295ab",
+      "userId": 1,
+      "createdAt": "04/02/2026"
+    },
+    {
+      "id": 3,
+      "title": "Giá RAM và SSD tăng – Tại sao và khi nào giá sẽ giảm?",
+      "content": "Trong những tháng gần đây, người dùng PC và game thủ tại Việt Nam và thế giới đang chứng kiến giá RAM và SSD tăng mạnh vượt ngoài dự đoán thị trường. Những biến động này ảnh hưởng trực tiếp đến chi phí build PC, nâng cấp linh kiện và giá thành laptop/PC hoàn chỉnh.",
+      "image": "https://bcavn.com/Image/Picture/New/gia-RAM-tang-gap-4-lan.png",
+      "userId": 1,
+      "createdAt": "04/02/2026"
+    }
+  ],
+  "comments": [
+
+  ]
+}

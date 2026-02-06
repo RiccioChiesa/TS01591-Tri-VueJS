@@ -1,0 +1,160 @@
+/* =========================
+   TWITTER (X) STYLE GLOBAL
+   ========================= */
+
+:root {
+  --tw-blue: #1d9bf0;
+  --tw-bg: #f7f9f9;
+  --tw-border: #eff3f4;
+  --tw-text: #0f1419;
+  --tw-muted: #536471;
+}
+
+body {
+  background-color: var(--tw-bg);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+  color: var(--tw-text);
+}
+
+/* Container giống Twitter feed */
+.container {
+  max-width: 720px;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+  background: #ffffff !important;
+  border-bottom: 1px solid var(--tw-border);
+}
+
+.navbar-brand {
+  font-weight: 800;
+  color: var(--tw-text) !important;
+}
+
+.navbar .btn {
+  border-radius: 999px;
+  font-weight: 600;
+}
+
+/* ===== PAGE TITLE ===== */
+h3, .page-title {
+  font-size: 1.4rem;
+  font-weight: 800;
+  margin-bottom: 1.25rem;
+}
+
+/* ===== CARD / POST ===== */
+.card {
+  background: #ffffff;
+  border: 1px solid var(--tw-border);
+  border-radius: 12px;
+  box-shadow: none;
+  margin-bottom: 1rem;
+}
+
+.card-img-top {
+  max-height: 420px;
+  object-fit: cover;
+  border-bottom: 1px solid var(--tw-border);
+}
+
+.card-body {
+  padding: 1rem 1.25rem;
+}
+
+.card-title {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--tw-text);
+}
+
+.card small {
+  font-size: 0.8rem;
+  color: var(--tw-muted);
+}
+
+/* ===== FORM ===== */
+.form-control,
+textarea.form-control {
+  border-radius: 12px;
+  border: 1px solid var(--tw-border);
+  font-size: 0.95rem;
+}
+
+.form-control:focus,
+textarea.form-control:focus {
+  border-color: var(--tw-blue);
+  box-shadow: none;
+}
+
+/* ===== BUTTON ===== */
+.btn-primary {
+  background-color: var(--tw-blue);
+  border-color: var(--tw-blue);
+  border-radius: 999px;
+  font-weight: 700;
+}
+
+.btn-primary:hover {
+  background-color: #1a8cd8;
+}
+
+.btn-danger {
+  border-radius: 999px;
+}
+
+/* ===== COMMENT ===== */
+.comment {
+  border-top: 1px solid var(--tw-border);
+  padding: 0.75rem 0;
+  font-size: 0.9rem;
+}
+
+.comment strong {
+  font-weight: 700;
+}
+
+textarea.form-control {
+  border: none;
+  border-top: 1px solid var(--tw-border);
+  border-radius: 0;
+}
+
+/* ===== ALERT ===== */
+.alert {
+  border-radius: 12px;
+  font-size: 0.9rem;
+}
+
+/* ===== PROFILE ===== */
+.profile-card {
+  background: #ffffff;
+  border: 1px solid var(--tw-border);
+  border-radius: 16px;
+}
+
+.profile-avatar {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  border: 2px solid var(--tw-border);
+}
+
+/* ===== LINK ACTIVE ===== */
+.router-link-active,
+.router-link-exact-active {
+  background-color: var(--tw-blue) !important;
+  color: #fff !important;
+}
+
+/* ===== HOVER EFFECT ===== */
+.card:hover {
+  background-color: #f7f9f9;
+}
