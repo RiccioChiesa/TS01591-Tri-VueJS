@@ -6,6 +6,12 @@
       "email": "trinhmts01591@gmail.com",
       "password": "123456",
       "avatar": "https://api.dicebear.com/7.x/adventurer/svg?seed=MinhTri"
+    },
+    {
+      "id": "151e",
+      "name": "MinhTri",
+      "email": "trinhmts01591@gmail.comt",
+      "password": "12345"
     }
   ],
   "posts": [
@@ -34,7 +40,5 @@
       "createdAt": "04/02/2026"
     }
   ],
-  "comments": [
-
-  ]
+  "comments": []
 }
